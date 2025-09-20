@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Ammar Ahmed, showcasing web development, mobile development, and software engineering projects."
+    />
+    <title>Ammar Ahmed</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/363894aecf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main Navigation">
+        <div class="nav-wrapper">
+          <a class="logo" href="#">Ammar.</a>
+
+          <ul>
+            <li><a href="#">Home</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+          </ul>
+          <button class="btn btn-primary" type="button">Hire Me</button>
+
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Toggle menu"
+            aria-controls="nav-links"
+            aria-expanded="false"
+          >
+            <img
+              src="assets/Menu Button.svg"
+              alt="menu icon"
+              class="menu-icon"
+              srcset="assets/Menu Button.svg"
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="hero-content">
+          <h1 class="hero-greeting">Hello<span class="dot">.</span></h1>
+          <h2 class="hero-name">I'm Ammar</h2>
+          <h3 class="hero-title">React Native Developer</h3>
+
+          <!-- <div class="footer-social"> 
+            <a 
+              aria-label="Link to GitHub Profile" 
+              href="https://github.com/Ammarahmed1263" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="footer-social-icon" 
+              ><i class="fab fa-github fa-fw"></i 
+            ></a> 
+            <a 
+              aria-label="Link to LinkedIn Profile" 
+              href="https://www.linkedin.com/in/ammar-ahmed-saeid/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="footer-social-icon" 
+              ><i class="fab fa-linkedin-in fa-fw"></i 
+            ></a> 
+          </div> -->
+          <div class="hero-cta">
+            <button class="btn btn-primary" type="button">Hire Me</button>
+            <a
+              href="https://drive.google.com/file/d/1iZDJ57-IlyKzGC0XSDibaCb4PQ9fUpzw/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-secondary"
+              download
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/person.png" alt="person image" />
+        </div>
+      </section>
+
+      <!-- <section id="services"> 
+        <h2 class="section-heading">Services</h2> 
+        <p class="section-subheading"> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </p> 
+        <div> 
+        </div> 
+      </section> -->
+
+      <section id="about-me">
+        <h2 class="section-heading">About Me</h2>
+        <p class="section-subheading">
+          Passionate React Native Developer from Cairo, Egypt
+        </p>
+
+        <div class="about-content">
+          <p>
+            Hi there! I'm Ammar Ahmed, a passionate React Native Developer
+            specializing in cross-platform mobile app development. Currently
+            pursuing my Bachelor's in Computer Science at Helwan University with
+            a 3.83 GPA, I have hands-on experience working with leading
+            companies like Homzmart and Seaats.
+          </p>
+          <p>
+            I bring a strong technical foundation in JavaScript, TypeScript,
+            React Native, and modern development practices. My experience
+            includes refactoring applications to reduce loading times by 45%,
+            implementing core features that doubled campaign sales, and building
+            full-stack solutions with Firebase and Node.js. I'm passionate about
+            creating efficient, user-friendly mobile applications that solve
+            real-world problems.
+          </p>
+          <p>
+            With certifications from META's React Native Specialization and
+            training from Information Technology Institute (ITI), I stay
+            up-to-date with the latest mobile development trends. Let's work
+            together to bring your mobile app ideas to life with cutting-edge
+            technology and best practices!
+          </p>
+        </div>
+
+        <a
+          href="https://drive.google.com/file/d/1iZDJ57-IlyKzGC0XSDibaCb4PQ9fUpzw/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary"
+          download
+        >
+          Download Resume
+        </a>
+      </section>
+
+      <section id="skills">
+        <div class="skills-wrapper">
+          <h3>Mobile</h3>
+          <div class="skills-list">
+            <div class="skill-card" data-skill="react-native">
+              <div class="skill-content">
+                <img src="assets/react.svg" alt="React Native Logo" />
+                <h4>React Native</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="expo">
+              <div class="skill-content">
+                <img src="assets/expo.svg" alt="Expo Logo" />
+                <h4>Expo</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="typescript">
+              <div class="skill-content">
+                <img src="assets/typescript.svg" alt="TypeScript Logo" />
+                <h4>TypeScript</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="nativewind">
+              <div class="skill-content">
+                <img src="assets/nativewind.svg" alt="NativeWind Logo" />
+                <h4>NativeWind</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="redux">
+              <div class="skill-content">
+                <img src="assets/redux.svg" alt="Redux Logo" />
+                <h4>Redux</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="zustand">
+              <div class="skill-content">
+                <img src="assets/zustand.svg" alt="Zustand Logo" />
+                <h4>Zustand</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="tanstack">
+              <div class="skill-content">
+                <img src="assets/tanstack.png" alt="TanStack Query Logo" />
+                <h4>TanStack Query</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-wrapper">
+          <h3>Front-End</h3>
+          <div class="skills-list">
+            <div class="skill-card" data-skill="react">
+              <div class="skill-content">
+                <img src="assets/react.svg" alt="React Logo" />
+                <h4>React</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="javascript">
+              <div class="skill-content">
+                <img src="assets/javascript.svg" alt="JavaScript Logo" />
+                <h4>JavaScript</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="typescript">
+              <div class="skill-content">
+                <img src="assets/typescript.svg" alt="TypeScript Logo" />
+                <h4>TypeScript</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="html5">
+              <div class="skill-content">
+                <img src="assets/html-5.svg" alt="HTML5 Logo" />
+                <h4>HTML5</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="css3">
+              <div class="skill-content">
+                <img src="assets/css3.svg" alt="CSS3 Logo" />
+                <h4>CSS3</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="redux">
+              <div class="skill-content">
+                <img src="assets/redux.svg" alt="Redux Logo" />
+                <h4>Redux</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="bootstrap">
+              <div class="skill-content">
+                <img src="assets/bootstrap.svg" alt="Bootstrap Logo" />
+                <h4>Bootstrap</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-wrapper">
+          <h3>Back-End</h3>
+          <div class="skills-list">
+            <div class="skill-card" data-skill="nodejs">
+              <div class="skill-content">
+                <img src="assets/nodejs.svg" alt="Node.js Logo" />
+                <h4>Node.js</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="firebase">
+              <div class="skill-content">
+                <img src="assets/firebase.svg" alt="Firebase Logo" />
+                <h4>Firebase</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="supabase">
+              <div class="skill-content">
+                <img src="assets/supabase.svg" alt="Supabase Logo" />
+                <h4>Supabase</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="mongodb">
+              <div class="skill-content">
+                <img src="assets/mongodb.svg" alt="MongoDB Logo" />
+                <h4>MongoDB</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="mysql">
+              <div class="skill-content">
+                <img src="assets/mysql.svg" alt="MySQL Logo" />
+                <h4>MySQL</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="python">
+              <div class="skill-content">
+                <img src="assets/python.svg" alt="Python Logo" />
+                <h4>Python</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="flask">
+              <div class="skill-content">
+                <img src="assets/flask.svg" alt="Flask Logo" />
+                <h4>Flask</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="c">
+              <div class="skill-content">
+                <img src="assets/c.svg" alt="C Logo" />
+                <h4>C</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="java">
+              <div class="skill-content">
+                <img src="assets/java.svg" alt="Java Logo" />
+                <h4>Java</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-wrapper">
+          <h3>Tools</h3>
+          <div class="skills-list">
+            <div class="skill-card" data-skill="git">
+              <div class="skill-content">
+                <img src="assets/git.svg" alt="Git Logo" />
+                <h4>Git</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="github">
+              <div class="skill-content">
+                <img src="assets/github.svg" alt="GitHub Logo" />
+                <h4>GitHub</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="docker">
+              <div class="skill-content">
+                <img src="assets/docker.svg" alt="Docker Logo" />
+                <h4>Docker</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="linux">
+              <div class="skill-content">
+                <img src="assets/linux.svg" alt="Linux Logo" />
+                <h4>Linux</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="flipper">
+              <div class="skill-content">
+                <img src="assets/flipper.png" alt="Flipper Logo" />
+                <h4>Flipper</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="reactotron">
+              <div class="skill-content">
+                <img src="assets/reactotron.png" alt="Reactotron Logo" />
+                <h4>Reactotron</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="jira">
+              <div class="skill-content">
+                <img src="assets/jira.svg" alt="Jira Logo" />
+                <h4>Jira</h4>
+              </div>
+            </div>
+            <div class="skill-card" data-skill="vscode">
+              <div class="skill-content">
+                <img src="assets/vscode.svg" alt="VS Code Logo" />
+                <h4>VS Code</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2 class="section-heading">Projects</h2>
+        <p class="section-subheading">
+          Explore my latest mobile and web development projects
+        </p>
+        <div class="filter-group">
+          <button class="btn filter-btn active" type="button" data-filter="all">
+            All
+          </button>
+          <button class="btn filter-btn" type="button" data-filter="mobile">
+            Mobile
+          </button>
+          <button class="btn filter-btn" type="button" data-filter="frontend">
+            Front-End
+          </button>
+          <button class="btn filter-btn" type="button" data-filter="backend">
+            Back-End
+          </button>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card" data-category="mobile">
+            <img
+              src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop"
+              alt="JobConnect project image"
+            />
+            <h3>JobConnect - Graduation Project</h3>
+            <p>
+              A comprehensive job-seeking mobile app with push notifications,
+              deep linking, resume sharing, and offline support. Built with
+              React Native and Firebase, featuring dark mode and multi-user
+              accessibility for seamless job searching experience.
+            </p>
+            <button class="btn btn-primary" type="button">View Project</button>
+          </div>
+          <div class="project-card" data-category="mobile">
+            <img
+              src="https://images.unsplash.com/photo-1489599735734-79b4ba5b75f0?w=400&h=300&fit=crop"
+              alt="Movie Corn project image"
+            />
+            <h3>Movie Corn - Entertainment App</h3>
+            <p>
+              Feature-rich movie discovery app with voice search, Google
+              authentication, custom watchlists, and real-time notifications.
+              Optimized with Cloudinary and Reanimated for smooth performance,
+              supporting multiple languages and offline mode.
+            </p>
+            <button class="btn btn-primary" type="button">View Project</button>
+          </div>
+          <div class="project-card" data-category="mobile">
+            <img
+              src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop"
+              alt="Task Trek project image"
+            />
+            <h3>Task Trek - Productivity App</h3>
+            <p>
+              Intuitive to-do application featuring task reordering, smart
+              notifications, and progress tracking. Built with React Native and
+              TypeScript, designed to increase user productivity and daily task
+              completion rates through seamless user experience.
+            </p>
+            <button class="btn btn-primary" type="button">View Project</button>
+          </div>
+          <div class="project-card" data-category="frontend backend">
+            <img
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop"
+              alt="Calisthenics Coach Website project image"
+            />
+            <h3>Calisthenics Coach Website</h3>
+            <p>
+              Professional coaching website with admin dashboard and client
+              communication system. Developed using HTML, CSS, Bootstrap for
+              frontend and Python Flask with SQLite for backend. Deployed on
+              Render for reliable hosting and performance.
+            </p>
+            <button class="btn btn-primary" type="button">View Project</button>
+          </div>
+          <div class="project-card" data-category="mobile backend">
+            <img
+              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop"
+              alt="Homzmart project image"
+            />
+            <h3>Homzmart - E-commerce Enhancement</h3>
+            <p>
+              Enhanced e-commerce mobile app with performance optimizations
+              reducing loading time by 45%. Implemented Facebook login,
+              gamification features doubling campaign sales, and search
+              autocomplete for improved user engagement and app stability.
+            </p>
+            <button class="btn btn-primary" type="button">View Project</button>
+          </div>
+          <div class="project-card" data-category="mobile backend">
+            <img
+              src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop"
+              alt="Seaats project image"
+            />
+            <h3>Seaats - Carpool Connection</h3>
+            <p>
+              Full-stack carpool connection platform linking riders and drivers.
+              Developed comprehensive profile screens with enhanced UI/UX,
+              resolved critical bugs in authentication and community features,
+              significantly improving app reliability and user experience.
+            </p>
+            <button class="btn btn-primary" type="button">View Project</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-me">
+        <h2 class="section-heading">Contact Me</h2>
+        <p class="section-subheading">
+          Let's discuss your next mobile app project
+        </p>
+        <form class="contact-form">
+          <div class="form-group">
+            <input
+              class="input"
+              type="text"
+              placeholder="Name"
+              name="name"
+              required
+            />
+            <input
+              class="input"
+              type="email"
+              placeholder="Email"
+              name="email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              class="input"
+              type="tel"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <select class="input" name="service" title="Service of Interest">
+              <option value="">Service of Interest</option>
+              <option value="react-native">React Native Development</option>
+              <option value="mobile-development">Mobile App Development</option>
+              <option value="fullstack">Full-Stack Development</option>
+              <option value="consultation">Technical Consultation</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <input
+              class="input"
+              type="text"
+              placeholder="Timeline"
+              name="timeline"
+            />
+            <textarea
+              class="input"
+              placeholder="Tell me about your project..."
+              name="message"
+            ></textarea>
+          </div>
+
+          <button class="btn btn-secondary" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <a class="logo" href="#">Ammar.</a>
+
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-social">
+          <a
+            aria-label="Link to GitHub Profile"
+            href="https://github.com/Ammarahmed1263"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-social-icon"
+            ><i class="fab fa-github fa-fw"></i
+          ></a>
+          <a
+            aria-label="Link to LinkedIn Profile"
+            href="https://www.linkedin.com/in/ammar-ahmed-saeid/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-social-icon"
+            ><i class="fab fa-linkedin-in fa-fw"></i
+          ></a>
+        </div>
+
+        <address class="footer-contact">
+          <a href="mailto:ammarahmed1263@gmail.com" class="contact-item">
+            <i class="fas fa-envelope fa-fw"></i>
+            <span>ammarahmed1263@gmail.com</span>
+          </a>
+
+          <a href="tel:+201010868954" class="contact-item">
+            <i class="fas fa-phone fa-fw"></i>
+            <span>+20 1010868954</span>
+          </a>
+        </address>
+
+        <p class="footer-copyright">Copyright &copy; 2025 Ammar Ahmed</p>
+      </div>
+    </footer>
+  </body>
+</html>
