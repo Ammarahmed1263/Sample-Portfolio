@@ -15,10 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/363894aecf.js"
-      crossorigin="anonymous"
-    ></script>
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -49,7 +45,6 @@
               src="assets/Menu Button.svg"
               alt="menu icon"
               class="menu-icon"
-              srcset="assets/Menu Button.svg"
             />
           </button>
         </div>
@@ -63,24 +58,6 @@
           <h2 class="hero-name">I'm Ammar</h2>
           <h3 class="hero-title">React Native Developer</h3>
 
-          <!-- <div class="footer-social"> 
-            <a 
-              aria-label="Link to GitHub Profile" 
-              href="https://github.com/Ammarahmed1263" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              class="footer-social-icon" 
-              ><i class="fab fa-github fa-fw"></i 
-            ></a> 
-            <a 
-              aria-label="Link to LinkedIn Profile" 
-              href="https://www.linkedin.com/in/ammar-ahmed-saeid/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              class="footer-social-icon" 
-              ><i class="fab fa-linkedin-in fa-fw"></i 
-            ></a> 
-          </div> -->
           <div class="hero-cta">
             <button class="btn btn-primary" type="button">Hire Me</button>
             <a
@@ -95,18 +72,9 @@
           </div>
         </div>
         <div class="hero-image">
-          <img src="assets/person.png" alt="person image" />
+          <img src="assets/person.webp" alt="person image" fetchpriority="high" />
         </div>
       </section>
-
-      <!-- <section id="services"> 
-        <h2 class="section-heading">Services</h2> 
-        <p class="section-subheading"> 
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        </p> 
-        <div> 
-        </div> 
-      </section> -->
 
       <section id="about-me">
         <h2 class="section-heading">About Me</h2>
@@ -157,43 +125,63 @@
           <div class="skills-list">
             <div class="skill-card" data-skill="react-native">
               <div class="skill-content">
-                <img src="assets/react.svg" alt="React Native Logo" />
+                <img
+                  src="assets/react.svg"
+                  alt="React Native Logo"
+                  loading="lazy"
+                />
                 <h4>React Native</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="expo">
               <div class="skill-content">
-                <img src="assets/expo.svg" alt="Expo Logo" />
+                <img src="assets/expo.svg" alt="Expo Logo" loading="lazy" />
                 <h4>Expo</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="typescript">
               <div class="skill-content">
-                <img src="assets/typescript.svg" alt="TypeScript Logo" />
+                <img
+                  src="assets/typescript.svg"
+                  alt="TypeScript Logo"
+                  loading="lazy"
+                />
                 <h4>TypeScript</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="nativewind">
               <div class="skill-content">
-                <img src="assets/nativewind.svg" alt="NativeWind Logo" />
+                <img
+                  src="assets/nativewind.svg"
+                  alt="NativeWind Logo"
+                  loading="lazy"
+                />
                 <h4>NativeWind</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="redux">
               <div class="skill-content">
-                <img src="assets/redux.svg" alt="Redux Logo" />
+                <img src="assets/redux.svg" alt="Redux Logo" loading="lazy" />
                 <h4>Redux</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="zustand">
               <div class="skill-content">
-                <img src="assets/zustand.svg" alt="Zustand Logo" />
+                <img
+                  src="assets/zustand.svg"
+                  alt="Zustand Logo"
+                  loading="lazy"
+                />
                 <h4>Zustand</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="tanstack">
               <div class="skill-content">
-                <img src="assets/tanstack.png" alt="TanStack Query Logo" />
+                <img
+                  src="assets/tanstack.svg"
+                  alt="TanStack Query Logo"
+                  loading="lazy"
+                />
                 <h4>TanStack Query</h4>
               </div>
             </div>
@@ -205,43 +193,55 @@
           <div class="skills-list">
             <div class="skill-card" data-skill="react">
               <div class="skill-content">
-                <img src="assets/react.svg" alt="React Logo" />
+                <img src="assets/react.svg" alt="React Logo" loading="lazy" />
                 <h4>React</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="javascript">
               <div class="skill-content">
-                <img src="assets/javascript.svg" alt="JavaScript Logo" />
+                <img
+                  src="assets/javascript.svg"
+                  alt="JavaScript Logo"
+                  loading="lazy"
+                />
                 <h4>JavaScript</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="typescript">
               <div class="skill-content">
-                <img src="assets/typescript.svg" alt="TypeScript Logo" />
+                <img
+                  src="assets/typescript.svg"
+                  alt="TypeScript Logo"
+                  loading="lazy"
+                />
                 <h4>TypeScript</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="html5">
               <div class="skill-content">
-                <img src="assets/html-5.svg" alt="HTML5 Logo" />
+                <img src="assets/html-5.svg" alt="HTML5 Logo" loading="lazy" />
                 <h4>HTML5</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="css3">
               <div class="skill-content">
-                <img src="assets/css3.svg" alt="CSS3 Logo" />
+                <img src="assets/css3.svg" alt="CSS3 Logo" loading="lazy" />
                 <h4>CSS3</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="redux">
               <div class="skill-content">
-                <img src="assets/redux.svg" alt="Redux Logo" />
+                <img src="assets/redux.svg" alt="Redux Logo" loading="lazy" />
                 <h4>Redux</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="bootstrap">
               <div class="skill-content">
-                <img src="assets/bootstrap.svg" alt="Bootstrap Logo" />
+                <img
+                  src="assets/bootstrap.svg"
+                  alt="Bootstrap Logo"
+                  loading="lazy"
+                />
                 <h4>Bootstrap</h4>
               </div>
             </div>
@@ -253,55 +253,71 @@
           <div class="skills-list">
             <div class="skill-card" data-skill="nodejs">
               <div class="skill-content">
-                <img src="assets/nodejs.svg" alt="Node.js Logo" />
+                <img
+                  src="assets/nodejs.svg"
+                  alt="Node.js Logo"
+                  loading="lazy"
+                />
                 <h4>Node.js</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="firebase">
               <div class="skill-content">
-                <img src="assets/firebase.svg" alt="Firebase Logo" />
+                <img
+                  src="assets/firebase.svg"
+                  alt="Firebase Logo"
+                  loading="lazy"
+                />
                 <h4>Firebase</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="supabase">
               <div class="skill-content">
-                <img src="assets/supabase.svg" alt="Supabase Logo" />
+                <img
+                  src="assets/supabase.svg"
+                  alt="Supabase Logo"
+                  loading="lazy"
+                />
                 <h4>Supabase</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="mongodb">
               <div class="skill-content">
-                <img src="assets/mongodb.svg" alt="MongoDB Logo" />
+                <img
+                  src="assets/mongodb.svg"
+                  alt="MongoDB Logo"
+                  loading="lazy"
+                />
                 <h4>MongoDB</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="mysql">
               <div class="skill-content">
-                <img src="assets/mysql.svg" alt="MySQL Logo" />
+                <img src="assets/mysql.svg" alt="MySQL Logo" loading="lazy" />
                 <h4>MySQL</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="python">
               <div class="skill-content">
-                <img src="assets/python.svg" alt="Python Logo" />
+                <img src="assets/python.svg" alt="Python Logo" loading="lazy" />
                 <h4>Python</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="flask">
               <div class="skill-content">
-                <img src="assets/flask.svg" alt="Flask Logo" />
+                <img src="assets/flask.svg" alt="Flask Logo" loading="lazy" />
                 <h4>Flask</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="c">
               <div class="skill-content">
-                <img src="assets/c.svg" alt="C Logo" />
+                <img src="assets/c.svg" alt="C Logo" loading="lazy" />
                 <h4>C</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="java">
               <div class="skill-content">
-                <img src="assets/java.svg" alt="Java Logo" />
+                <img src="assets/java.svg" alt="Java Logo" loading="lazy" />
                 <h4>Java</h4>
               </div>
             </div>
@@ -313,49 +329,61 @@
           <div class="skills-list">
             <div class="skill-card" data-skill="git">
               <div class="skill-content">
-                <img src="assets/git.svg" alt="Git Logo" />
+                <img src="assets/git.svg" alt="Git Logo" loading="lazy" />
                 <h4>Git</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="github">
               <div class="skill-content">
-                <img src="assets/github.svg" alt="GitHub Logo" />
+                <img src="assets/github.svg" alt="GitHub Logo" loading="lazy" />
                 <h4>GitHub</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="docker">
               <div class="skill-content">
-                <img src="assets/docker.svg" alt="Docker Logo" />
+                <img src="assets/docker.svg" alt="Docker Logo" loading="lazy" />
                 <h4>Docker</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="linux">
               <div class="skill-content">
-                <img src="assets/linux.svg" alt="Linux Logo" />
+                <img src="assets/linux.svg" alt="Linux Logo" loading="lazy" />
                 <h4>Linux</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="flipper">
               <div class="skill-content">
-                <img src="assets/flipper.png" alt="Flipper Logo" />
+                <img
+                  src="assets/flipper.svg"
+                  alt="Flipper Logo"
+                  loading="lazy"
+                />
                 <h4>Flipper</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="reactotron">
               <div class="skill-content">
-                <img src="assets/reactotron.png" alt="Reactotron Logo" />
+                <img
+                  src="assets/reactotron.svg"
+                  alt="Reactotron Logo"
+                  loading="lazy"
+                />
                 <h4>Reactotron</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="jira">
               <div class="skill-content">
-                <img src="assets/jira.svg" alt="Jira Logo" />
+                <img src="assets/jira.svg" alt="Jira Logo" loading="lazy" />
                 <h4>Jira</h4>
               </div>
             </div>
             <div class="skill-card" data-skill="vscode">
               <div class="skill-content">
-                <img src="assets/vscode.svg" alt="VS Code Logo" />
+                <img
+                  src="assets/vscode.svg"
+                  alt="VS Code Logo"
+                  loading="lazy"
+                />
                 <h4>VS Code</h4>
               </div>
             </div>
@@ -385,8 +413,9 @@
         <div class="projects-grid">
           <div class="project-card" data-category="mobile">
             <img
-              src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop"
+              src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?fit=crop"
               alt="JobConnect project image"
+              loading="lazy"
             />
             <div class="project-card-content">
               <h3>JobConnect - Graduation Project</h3>
@@ -403,8 +432,9 @@
           </div>
           <div class="project-card" data-category="mobile">
             <img
-              src="https://images.unsplash.com/photo-1485095329183-d0797cdc5676?q=80&w=400&h=300&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://images.unsplash.com/photo-1485095329183-d0797cdc5676?q=80&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Movie Corn project image"
+              loading="lazy"
             />
             <div class="project-card-content">
               <h3>Movie Corn - Entertainment App</h3>
@@ -421,8 +451,9 @@
           </div>
           <div class="project-card" data-category="mobile">
             <img
-              src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop"
+              src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?fit=crop"
               alt="Task Trek project image"
+              loading="lazy"
             />
             <div class="project-card-content">
               <h3>Task Trek - Productivity App</h3>
@@ -439,8 +470,9 @@
           </div>
           <div class="project-card" data-category="frontend backend">
             <img
-              src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=400&h=300&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya291dHxlbnwwfHwwfHx8MA%3D%3D"
+              src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya291dHxlbnwwfHwwfHx8MA%3D%3D"
               alt="Calisthenics Coach Website project image"
+              loading="lazy"
             />
             <div class="project-card-content">
               <h3>Calisthenics Coach Website</h3>
@@ -457,8 +489,9 @@
           </div>
           <div class="project-card" data-category="mobile backend">
             <img
-              src="https://plus.unsplash.com/premium_photo-1721936170673-d9804c6248d6?w=400&h=300&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnVybml0dXJlJTIwc2hvd3Jvb218ZW58MHx8MHx8fDA%3D"
+              src="https://plus.unsplash.com/premium_photo-1721936170673-d9804c6248d6?fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnVybml0dXJlJTIwc2hvd3Jvb218ZW58MHx8MHx8fDA%3D"
               alt="Homzmart project image"
+              loading="lazy"
             />
             <div class="project-card-content">
               <h3>Homzmart - E-commerce Enhancement</h3>
@@ -475,8 +508,9 @@
           </div>
           <div class="project-card" data-category="mobile backend">
             <img
-              src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop"
+              src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?fit=crop"
               alt="Seaats project image"
+              loading="lazy"
             />
             <div class="project-card-content">
               <h3>Seaats - Carpool Connection</h3>
@@ -574,26 +608,108 @@
             target="_blank"
             rel="noopener noreferrer"
             class="footer-social-icon"
-            ><i class="fab fa-github fa-fw"></i
-          ></a>
+          >
+            <svg
+              width="800px"
+              height="800px"
+              viewBox="0 0 20 20"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Dribbble-Light-Preview"
+                  transform="translate(-140.000000, -7559.000000)"
+                  fill="currentColor"
+                >
+                  <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path
+                      d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                      id="github-[#142]"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
           <a
             aria-label="Link to LinkedIn Profile"
             href="https://www.linkedin.com/in/ammar-ahmed-saeid/"
             target="_blank"
             rel="noopener noreferrer"
             class="footer-social-icon"
-            ><i class="fab fa-linkedin-in fa-fw"></i
-          ></a>
+          >
+            <svg
+              width="800px"
+              height="800px"
+              viewBox="0 0 20 20"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Dribbble-Light-Preview"
+                  transform="translate(-180.000000, -7479.000000)"
+                  fill="currentColor"
+                >
+                  <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path
+                      d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z"
+                      id="linkedin-[#161]"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
         </div>
 
         <address class="footer-contact">
           <a href="mailto:ammarahmed1263@gmail.com" class="contact-item">
-            <i class="fas fa-envelope fa-fw"></i>
+            <svg
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7 4C4.23858 4 2 6.23858 2 9V15C2 17.7614 4.23858 20 7 20H17C19.7614 20 22 17.7614 22 15V9C22 6.23858 19.7614 4 17 4H7ZM7.62473 8.21913C7.19347 7.87412 6.56418 7.94404 6.21917 8.3753C5.87416 8.80657 5.94408 9.43586 6.37534 9.78087L8.87656 11.7818C10.7027 13.2427 13.2974 13.2427 15.1235 11.7818L17.6247 9.78087C18.056 9.43586 18.1259 8.80657 17.7809 8.3753C17.4359 7.94404 16.8066 7.87412 16.3753 8.21913L13.8741 10.2201C12.7785 11.0966 11.2216 11.0966 10.126 10.2201L7.62473 8.21913Z"
+                fill="currentColor"
+              />
+            </svg>
             <span>ammarahmed1263@gmail.com</span>
           </a>
 
           <a href="tel:+201010868954" class="contact-item">
-            <i class="fas fa-phone fa-fw"></i>
+            <svg
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.0376 5.31617L10.6866 6.4791C11.2723 7.52858 11.0372 8.90532 10.1147 9.8278C10.1147 9.8278 10.1147 9.8278 10.1147 9.8278C10.1146 9.82792 8.99588 10.9468 11.0245 12.9755C13.0525 15.0035 14.1714 13.8861 14.1722 13.8853C14.1722 13.8853 14.1722 13.8853 14.1722 13.8853C15.0947 12.9628 16.4714 12.7277 17.5209 13.3134L18.6838 13.9624C20.2686 14.8468 20.4557 17.0692 19.0628 18.4622C18.2258 19.2992 17.2004 19.9505 16.0669 19.9934C14.1588 20.0658 10.9183 19.5829 7.6677 16.3323C4.41713 13.0817 3.93421 9.84122 4.00655 7.93309C4.04952 6.7996 4.7008 5.77423 5.53781 4.93723C6.93076 3.54428 9.15317 3.73144 10.0376 5.31617Z"
+                fill="currentColor"
+              />
+            </svg>
             <span>+20 1010868954</span>
           </a>
         </address>

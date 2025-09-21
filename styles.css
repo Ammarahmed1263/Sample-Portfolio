@@ -32,8 +32,8 @@ body {
   --color-accent-dark: #e60026;
 
   --color-text-primary: #fff;
-  --color-text-secondary: #959595;
-  --color-text-muted: #707070;
+  --color-text-secondary: #aaaaaa;
+  --color-text-muted: #959595;
 
   --color-bg-primary: #121212;
   --color-bg-secondary: #1c1c1c;
@@ -244,6 +244,7 @@ main {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  background-color: var(--color-bg-primary);
 }
 
 #about-me {
@@ -518,6 +519,7 @@ main {
 
 .project-card img {
   width: 100%;
+  aspect-ratio: 16 / 9;
   border-radius: 0.5rem;
   text-align: center;
 }
@@ -621,6 +623,11 @@ main {
   border-color: var(--color-accent);
 }
 
+.footer-social-icon svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
 .footer-contact {
   display: flex;
   justify-content: center;
@@ -639,8 +646,10 @@ main {
   transition: color 0.4s ease;
 }
 
-.contact-item i {
+.contact-item svg {
   color: var(--color-accent-secondary);
+  width: 1.2rem;
+  height: 1.2rem;
   transition: color 0.4s ease;
 }
 
@@ -648,9 +657,8 @@ main {
   color: var(--color-text-primary);
 }
 
-.contact-item:hover i {
+.contact-item:hover svg {
   color: var(--color-accent);
-  transition: color 0.4s ease;
 }
 
 .footer-copyright {
@@ -662,7 +670,7 @@ main {
 
 @media (max-width: 768px) {
   html {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   main {
