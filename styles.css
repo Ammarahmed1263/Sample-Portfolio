@@ -553,6 +553,11 @@ main {
   align-items: start;
 }
 
+.form-group option {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-muted);
+}
+
 .contact-form textarea {
   height: 120px;
   resize: none;

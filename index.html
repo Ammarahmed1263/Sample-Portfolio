@@ -32,7 +32,8 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact-me">Contact me</a></li>
           </ul>
-          <button class="btn btn-primary" type="button">Hire Me</button>
+          <!-- <button class="btn btn-primary" type="button">Hire Me</button> -->
+          <a href="#contact-me" class="btn btn-primary">Hire Me</a>
 
           <button
             class="menu-toggle"
@@ -59,7 +60,7 @@
           <h3 class="hero-title">React Native Developer</h3>
 
           <div class="hero-cta">
-            <button class="btn btn-primary" type="button">Hire Me</button>
+            <a href="#contact-me" class="btn btn-primary">Hire Me</a>
             <a
               href="https://drive.google.com/file/d/1iZDJ57-IlyKzGC0XSDibaCb4PQ9fUpzw/view?usp=drive_link"
               target="_blank"
@@ -538,7 +539,12 @@
         <p class="section-subheading">
           Let's discuss your next mobile app project
         </p>
-        <form class="contact-form">
+        <form
+          class="contact-form"
+          id="contact-form"
+          action="https://formspree.io/f/mnngngyp"
+          method="POST"
+        >
           <div class="form-group">
             <input
               class="input"
